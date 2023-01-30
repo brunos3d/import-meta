@@ -1,0 +1,19 @@
+{
+  "name": "import-meta",
+  "version": "1.0.0",
+  "description": "https://www.srihash.org/ https://www.w3.org/TR/SRI/ https://www.npmjs.com/package/webpack-subresource-integrity https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"serve -p 3000 src\" \"open-cli http://localhost:3000\""
+  },
+  "keywords": [],
+  "author": "Bruno Silva",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "open-cli": "^7.1.0"
+  }
+}
